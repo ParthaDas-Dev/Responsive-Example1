@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+        <!--Meta Tags-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,500&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <link rel="stylesheet" href="Style.css">
+    </head>
+  <!-- Dropdown Menu -->
+<ul id="dropdown1" class="dropdown-content">
+  <li class="orange"><a onclick="M.toast({html: 'It Is Still Under Development!'})"  href="#!"class="white-text">Windows</a></li>
+  <li class="orange"><a onclick="M.toast({html: 'It Is Still Under Development!'})" href="#!"class="white-text">Antivirus</a></li>
+  <li class="orange"><a onclick="M.toast({html: 'It Is Still Under Development!'})" href="#!"class="white-text center">Other</a></li>
+</ul>
+    <nav class="orange darken-3">
+        <div class="nav-wrapper container ">
+          <a href="#!" class="brand-logo">ECSTORE <i class="material-icons">desktop_windows</i></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#">Home</a></li>
+            <li><a href="#Products">Products</a></li>
+            <li><a href="#store">Store</a></li>
+            <li><a href="#account">Account</a></li>
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">More<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <ul class="sidenav orange" id="mobile-demo">
+        <li class="white"><a href="#">Home</a></li>
+            <li class="orange"><a href="#Products"class="white-text">Products</a></li>
+            <li class=" amber darken-3"><a href="#store"class="white-text">Store</a></li>
+            <li class=" amber darken-2"><a href="#account" class="white-text">Account</a></li>
+            <li class="amber darken-3"><a href="#!"class="white-text tooltipped" data-position="top" data-tooltip="It's Under development">Explore</a></li>
+            <li class=" orange lighten-1"><a href="#!"class="white-text tooltipped" data-position="top" data-tooltip="It's Under development">Antivirus</a></li>
+            <li class="orange"><a href="#!"class="white-text tooltipped" data-position="top" data-tooltip="It's Under development" >Other</a></li>
+      </ul>
+
+      <section>
+        <div class="slider">
+          <ul class="slides">
+            <li>
+              <img src="Images/bg1.jpg"> <!-- random image -->
+              <div class="caption left-align">
+                <h3> Gaming Products</h3>
+                <p class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur <br> adipisicisicing elit. Perferendis quisquam aliquid odio 
+                  <br> consequuntur architecto dolorum libero voluptatem? <br> rerum dolores labore impedit eum deleniti quibusdam.</p>
+                <button class="btn waves-effect waves-light orange darker-2" type="submit" name="action">Know More
+                  <i class="material-icons right orange">chevron_right</i>
+                </button>
+              </div>
+            </li>
+            <li>
+              <img src="Images/bg2.jpg"> <!-- random image -->
+              <div class="caption center-align">
+                <h3>Gaming & PC </h3>
+                <p class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur, adipisicingicing elit. Perferendis quisquam aliquid odio consequuntur architecto dolorum libero voluptatem? Officia dicta accusantium, facere repudiandae sint rerum dolores labore impedit eum deleniti quibusdam.</p>
+                <button class="btn waves-effect waves-light orange darker-2 " type="submit" name="action">Know More
+                  <i class="material-icons right orange">chevron_right</i>
+              </div>
+            </li>
+            <li>
+              <img src="Images/bg4.jpg"> <!-- random image -->
+              <div class="caption right-align">
+                <h3>Softwares & Services</h3>
+                <p class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur, adipisicingcing elit. <br>Cupiditate dolorum iusto atque a repudiandae et error vitae eos <br> adipisci rem laborum exercitationem  sit aliquam veritatis. Magnam.</p>
+                <button class="btn waves-effect waves-light orange darker-2 " type="submit" name="action">Know More
+                  <i class="material-icons right orange">chevron_right</i>
+              </div>
+            </li>
+      
+        </div>
+        <div class="container-fluid orange darken-4">
+        <div class="row">
+          
+          <div class="col s12 m3  orange darken-4">
+          <h6 class="white-text center "><i class="fa fa-gamepad " aria-hidden="true"></i> </h6> 
+         <h6 class="center-align"> <a href="#" class="waves-effect waves-light white-text tooltipped" data-position="left" data-tooltip="It's Under development">GAMING</a></h6>
+          </div>
+          <div class="col s12 m3  orange darken-4">
+            <h6 class="white-text center "><i class="fa fa-desktop" aria-hidden="true"></i> </h6> 
+           <h6 class="center-align"> <a href="#" class="waves-effect waves-light white-text tooltipped" data-position="right" data-tooltip="It's Under development">DESKTOPS</a></h6>
+            </div>
+            <div class="col s12 m3  orange darken-4">
+              <h6 class="white-text center "><i class="fa fa-laptop" aria-hidden="true"></i> </h6> 
+             <h6 class="center-align"> <a href="#" class="waves-effect waves-light white-text tooltipped" data-position="top" data-tooltip="It's Under development">LAPTOPS</a></h6>
+              </div>
+              <div class="col s12 m3  orange darken-4">
+                <h6 class="white-text center "><i class="fa fa-product-hunt" aria-hidden="true"></i> </h6> 
+               <h6 class="center-align"> <a href="#" class="waves-effect waves-light white-text tooltipped" data-position="bottom" data-tooltip="It's Under development">OTHER PRODUCTS</a></h6>
+                </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m6">
+            <h5 class="white-text center">Search Products Or Services <i class="material-icons white-text">search</i></label>
+          </div>
+        <div class=" col s12 m6 input-field container center" id="search" >
+          <input class="orange-text autocomplete" type="search" placeholder="Type Something (Such As Gaming,PC,Companies Etc..)" id="autocomplete-input">
+          <i class="material-icons orange-text darken-4 ">cancel</i>
+        </div>
+      </form>
+    </div>
+      </div>
+      </section>
+      
+    <section>
+ <div class="container-fluid"> 
+
+  
+  <div  class="row" data-aos="fade-up">
+    <div class="col s12 m6 l6 xl3 ">
+      <div class="card z-depth-2 hoverable">
+        <div class="card-image">
+          <img src="Images/wave2.svg">
+          <span class="card-title black-text">100% Genuine Products</span>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a href="#" class="btn  lime accent-4 hoverable">Learn More</a>
+        </div>
+      </div>
+    </div> 
+    <div class="col s12 m6 l6 xl3">
+      <div class="card z-depth-3 hoverable">
+        <div class="card-image">
+          <img src="Images/wave3.svg">
+          <span class="card-title black-text">30 Days Cash Back</span>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a href="#" class="btn  light-green accent-4 hoverable">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m6 l6 xl3">
+      <div class="card z-depth-4 hoverable">
+        <div class="card-image">
+          <img src="Images/wave4.svg">
+          <span class="card-title black-text">Excellent Service</span>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a href="#" class="btn  green darken-3 hoverable">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m6 l6 xl3">
+    <div class="card z-depth-5 hoverable">
+      <div class="card-image">
+        <img src="Images/wave6.svg">
+        <span class="card-title black-text">10000+ Products</span>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information.
+        I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div class="card-action">
+        <a href="#" class="btn green accent-3 hoverable">Learn More</a>
+      </div>
+    </div>
+  </div>
+  </div >
+ </div>
+    </section>
+<section id="explore">
+  <div class="container">
+    <div class="row ">
+  <div class="col s12 m12">
+    <div class="card horizontal Card1 grey darken-3">
+      <div class="card-image hide-on-small-only">
+      <img class="responsive-img" src="Images/explore.jfif"  alt="Image1">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content" data-aos="fade-up">
+         <h4 class="white-text ">Explore Quality Products</h4>
+         <p class="grey-text" >
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, maiores doloribus ex quas enim aliquam eius? Corrupti molestiae consectetur! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus voluptates facere delectus velit doloribus eaque recusandae debitis similique maiores. Hic sequi fuga culpa temporibus ea repellat alias, nemo fugiat blanditiis.
+         </p>
+        </div>
+        <div class="card-action">
+          <a href="#modal1" class="white-text modal-trigger">EXPLORE NOW </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--Modal For Products-->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4 class=" teal-text">PRODUCTS & ACCESSORIES</h4>
+      <ul class="collapsible ">
+        <li class="active">
+          <div class="collapsible-header white-text teal"><i class="material-icons">add_shopping_cart</i>Processors & Motherboard</div>
+          <div class="collapsible-body ">
+            <div class="row">
+
+              <div  class="col s12 m6 ">
+              <h4>Processors</h4>
+              <a href="#">AMD</a><br>
+              <a href="#">Intel</a>
+              </div >
+
+              <div  class="col s12 m6">
+                <h4>Motherboard</h4>
+                <a href="#">Gigabtye</a><br>
+                <a href="#">ASUS</a><br>
+                <a href="#">MSI</a><br>
+                <a href="#">ASRock</a><br>
+                <a href="#">Many more</a>
+
+                </div >
+
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header white-text teal"><i class="material-icons">add_shopping_cart</i>Ram & HDD & SSD</div>
+          <div class="collapsible-body">
+            <div class="row">
+
+              <div  class="col s12 m4 ">
+              <h4>Ram</h4>
+              <a href="#">Corsair</a><br>
+              <a href="#">ADATA</a><br>
+              <a href="#">Crucial</a><br>
+              <a href="#">Kingston</a>
+
+              </div >
+
+              <div  class="col s12 m4">
+                <h4>Hard Drive</h4>
+                <a href="#">ADATA</a><br>
+                <a href="#">WD</a><br>
+                <a href="#">Seagate</a><br>
+                <a href="#">Toshiba</a>
+            
+                
+                </div >
+                <div  class="col s12 m4">
+                  <h4>SSD</h4>
+                  <a href="#">ADATA</a><br>
+                  <a href="#">Corsair</a><br>
+                  <a href="#">Crucial</a><br>
+                  <a href="#">Samsung</a>
+          
+                  
+                  </div >
+
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header teal white-text"><i class="material-icons">add_shopping_cart</i>Graphics Cards & Cabinets</div>
+          <div class="collapsible-body">
+            <div class="row">
+
+              <div  class="col s12 m6">
+                <h4>Graphics Cards </h4>
+                <a href="#">Gigabtye</a><br>
+                <a href="#">ASUS</a><br>
+                <a href="#">MSI</a><br>
+                <a href="#">Zotac</a><br>
+                <a href="#">PNY</a>
+                
+                </div >
+                <div  class="col s12 m6 ">
+                  <h4>Cabinets</h4>
+                  <a href="#">ADATA</a><br>
+                  <a href="#">Aerocool</a><br>
+                  <a href="#">Antec</a><br>
+                  <a href="#">CIRCLE</a><br>
+                  <a href="#">Cooler Master</a>
+
+                  </div >
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header teal white-text"><i class="material-icons">add_shopping_cart</i>Power Supply & Cooling</div>
+          <div class="collapsible-body">
+            <div class="row">
+
+             
+              <div  class="col s12 m6">
+                <h4>PSU</h4>
+                <a href="#">Cooler Master</a><br>
+                <a href="#">Antec</a><br>
+                <a href="#">CIRCLE</a><br>
+                <a href="#">Corsair</a><br>
+                <a href="#">Deepcool</a>
+                
+                </div >
+                <div  class="col s12 m6 ">
+                  <h4>Cooling</h4>
+                  <a href="#">LIQUID Cooling </a> <br>
+                  <a href="#">Air Cooling</a>
+                  </div >
+    
+
+            </div>
+          </div>
+        </li> <li>
+          <div class="collapsible-header teal white-text"><i class="material-icons">add_shopping_cart</i>Other Products & Accessories</div>
+          <div class="collapsible-body">
+            <div class="row">
+
+              <div  class="col s12 m6 ">
+              <h4>Monitors</h4>
+              <a href="#">ASUS</a><br>
+              <a href="#">ACER</a><br>
+              <a href="#">Samsung</a><br>
+              <a href="#">HP</a><br>
+              <a href="#">Dell</a><br>
+
+              </div >
+
+              <div  class="col s12 m6">
+                <h4>Peripherals & Accessories</h4>
+                <a href="#">Keyboard</a><br>
+                <a href="#">Mouse</a><br>
+                <a href="#">Headsets</a><br>
+                <a href="#">Gamepad</a><br>
+                <a href="#">Gaming Chair</a>
+                
+                </div >
+
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></a>
+    </div>
+  </div>
+          
+</section>
+<section class="cyan darken-4 SEC4"  >
+<div class="container ">
+  <h4 class="center white-text ">BECOME A PREMIUM CUSTOMER</h4>
+  <p class="white-text center">Become our <span class="grey darken-3">PREMIUM</span> memeber/customer to enjoy registration before launch, 24 Hours Delivery,No delivery charge, extra 20% discount on every purchase, free games, special gifts and discount, and many more extra privileges...</p>
+  <div class="row">
+    <div  class="col s12 m12 center">
+      <a href="#" class="btn center teal accent-3 waves-effect waves-green hoverable  ">30 Days Free Trial</a>
+      <a href="#" class="btn teal accent-3 waves-effect waves-green hoverable">Register Now</a>
+    </div>
+  </div>
+</div>
+</section>
+<!--About US-->
+<section class="SEC5 grey lighten-4" id="SEC5">
+  <div class="container-fluid">
+    <div class="row SEC5-R1">
+      <div class="col s12 m12 " data-aos="fade-up">
+        <h4 class="green-text accent-4">OUR TRUST</h4>
+        <p class=" grey-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, pariatur, quos accusantium repellat cum blanditiis aliquid commodi aperiam iusto <br>expedita dolor similique harum laudantium alias veniam dignissimos illo sint facere.</p>
+      </div>
+    </div>
+  <div class="row">
+    <div class="col s12 m6">
+      <img src="Images/choose.png" class="responsive-img" alt="cover" width="500px" height="300px">
+
+    </div>
+
+    <div class="col s12 m6">
+     <h4 class="Choose">Why Choose US?</h4>
+     <ul>
+       <h5 class=" brown-text darken-2">  <i class="material-icons">security </i> We Build Credibility! </h5>
+       <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam architecto labore quam, corrupti aliquid repudiandae?</li>
+       <h5 class=" brown-text darken-2">  <i class="material-icons">monetization_on</i> We Offer The Lowest Price! </h5>
+       <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam architecto labore quam, corrupti aliquid repudiandae?</li>
+       <h5 class=" brown-text darken-2">  <i class="material-icons">people</i>  We Offer Excellent Service! </h5>
+       <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam architecto labore quam, corrupti aliquid repudiandae?</li>
+       
+     </ul>
+    </div>
+
+  </div>
+
+  </div>
+  <div class="row">
+  <div class="col s12 s6">
+    <h5 class="grey-text">We Build Your Trust!</h5> 
+    <a href="#" class="btn  deep-orange darken-2 waves-effect waves-orange hoverable">Check It Out</a> 
+ </div>  
+</div>
+  </div>
+</section>
+<!--Oroducts Section-->
+<section id="Products">
+  <div class="container-fluid">
+    <h4 class="Product1" data-aos="fade-up">Buy Products</h4>
+  <div class="row">
+    <div class="col s12 m6 l3">
+      <div class="card small hoverable">
+        <div class="card-image">
+          <img src="Images/product1.jpg" width="200px" height="200px" class="responsive-img">
+          <span class="card-title">Motherboards <span class="new badge orange darker-5">3</span></span>
+        </div>
+        <div class="card-content">
+          <p class="teal-text desp">Buy Branded Motherboards Here!</p>
+        </div>
+        <div class="card-action">
+          <a href="#!" class=" desp">Buy Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m6 l3">
+      <div class="card small hoverable">
+        <div class="card-image">
+          <img src="Images/product2.jpg" width="200px" height="200px" class="responsive-img">
+          <span class="card-title">Processors<span class="new badge teal darker-2">2</span></span>
+        </div>
+        <div class="card-content">
+          <p class="teal-text desp">Buy AMD & Intel Processors Here!</p>
+        </div>
+        <div class="card-action">
+          <a href="#!" class=" desp">Buy Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m6 l3">
+      <div class="card small hoverable">
+        <div class="card-image">
+          <img src="Images/product3.jpg" width="200px" height="200px" class="responsive-img">
+          <span class="card-title">Graphic Cards <span class="new badge orange darker-2">1</span></span>
+        </div>
+        <div class="card-content">
+          <p class="teal-text desp">Buy AMD & Nividia Graphics Cards Here!</p>
+        </div>
+        <div class="card-action">
+          <a href="#!" class=" desp">Buy Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m6 l3">
+      <div class="card small hoverable">
+        <div class="card-image">
+          <img src="Images/product4.jpg" width="200px" height="200px" class="responsive-img">
+          <span class="card-title">Memory/Ram</span>
+        </div>
+        <div class="card-content">
+          <p class="teal-text desp">Buy DDR3 & DDR4 Ram Here!</p>
+        </div>
+        <div class="card-action">
+          <a href="#!" class=" desp">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+  <div class="row">
+    <div class="col s12 m6 l3">
+      <div class="card small hoverable">
+        <div class="card-image">
+          <img src="Images/product5.jpg" width="200px" height="200px" class="responsive-img">
+          <span class="card-title">Cooling Solutions<span class="new badge orange darker-2">5</span></span>
+        </div>
+        <div class="card-content">
+          <p class="teal-text desp">Buy Water Or Air Cooling Components Here!</p>
+        </div>
+        <div class="card-action">
+          <a href="#!" class=" desp">Buy Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m6 l3">
+      <div class="card small hoverable">
+        <div class="card-image">
+          <img src="Images/product6.jpg" width="200px" height="200px" class="responsive-img">
+          <span class="card-title">HDD & SSD</span>
+        </div>
+        <div class="card-content">
+          <p class="teal-text desp">Buy Hard Drive & SSD Here!</p>
+        </div>
+        <div class="card-action">
+          <a href="#!" class=" desp">Buy Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m6 l3">
+      <div class="card small hoverable">
+        <div class="card-image">
+          <img src="Images/product7.jpg" width="200px" height="200px" class="responsive-img">
+          <span class="card-title"> PC Cabinets<span class="new badge blue darker-2">11</span></span>
+        </div>
+        <div class="card-content">
+          <p class="teal-text desp">Buy Branded PC Cabinets Here!</p>
+        </div>
+        <div class="card-action">
+          <a href="#!" class=" desp">Buy Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m6 l3">
+      <div class="card small hoverable">
+        <div class="card-image">
+          <img src="Images/product8.jpg" width="200px" height="200px" class="responsive-img">
+          <span class="card-title">Power Supply<span class="new badge amber darken-3">2</span></span>
+        </div>
+        <div class="card-content">
+          <p class="teal-text desp">Buy Semi & Fully Modular PSU Here!</p>
+        </div>
+        <div class="card-action">
+          <a href="#!" class=" desp">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <div class="row">
+    <div class="col s12 m6 l3">
+      <div class="card small hoverable">
+        <div class="card-image">
+          <img src="Images/product9.jpg" width="200px" height="200px" class="responsive-img">
+          <span class="card-title">Microcontrollers<span class="new badge orange">4</span></span>
+        </div>
+        <div class="card-content">
+          <p class="teal-text desp">Buy Arduino & Raspberry Pi Here!</p>
+        </div>
+        <div class="card-action">
+          <a href="#!" class=" desp">Buy Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m6 l3">
+      <div class="card small hoverable">
+        <div class="card-image">
+          <img src="Images/product10.jpg" width="200px" height="200px" class="responsive-img">
+          <span class="card-title">Laptops <span class="new badge cyan accent-4">12</span></span>
+        </div>
+        <div class="card-content">
+          <p class="teal-text desp">Buy Gaming And Budget Laptop Here!</p>
+        </div>
+        <div class="card-action">
+          <a href="#!" class=" desp">Buy Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m6 l3">
+      <div class="card small hoverable">
+        <div class="card-image">
+          <img src="Images/product11.jpg" width="200px" height="200px" class="responsive-img">
+          <span class="card-title">Gaming Console  <span class="new badge cyan accent-4">2</span></span>
+        </div>
+        <div class="card-content">
+          <p class="teal-text desp">Buy Gaming Console Here!</p>
+        </div>
+        <div class="card-action">
+          <a href="#!" class=" desp">Buy Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m6 l3">
+      <div class="card small hoverable">
+        <div class="card-image">
+          <img src="Images/product12.jpg" width="200px" height="200px" class="responsive-img">
+          <span class="card-title">Keyboard & Mouse <span class="new badge orange darker-2">8</span></span>
+        </div>
+        <div class="card-content">
+          <p class="teal-text desp">Buy Keyboard & Mouse Here!</p>
+        </div>
+        <div class="card-action">
+          <a href="#!" class=" desp">Buy Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section> <!--Ending of Products Section-->
+
+
+<section >
+  <div class="container-fluid  blue-grey darken-3 store" id="store">
+    <div class="row">
+      <div class="col s12 m8">
+        <h3 class="center white-text" data-aos="fade-right">Visit Our Store Directly</h3>
+        <p class="center grey-text lighten-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, velit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, voluptatibus?</p>
+      </div>
+      <div class="col s12 m2">
+       <h4 class="center  white-text">  <i class="material-icons">add</i>10000</h4>
+       <p class="center grey-text lighten-5">Products</p>
+      </div>
+      <div class="col s12 m2">
+        <h4 class="center  white-text">  <i class="material-icons">add</i>100</h4>
+        <p class="center grey-text lighten-5">Stores Offline</p>
+      </div>
+</div>
+
+<div class="row ">
+  <div class="col s12 m8">
+    <h5 class="center"><a onclick="M.toast({html: 'The Store Is Still Under Development!'})" class="btn hoverable waves-effect waves-light ">Visit The Store</a></h5>
+        
+   </div>
+  <div class="col s12 m2">
+   <h4 class="center  white-text">  <i class="material-icons">add</i>100%</h4>
+   <p class="center grey-text lighten-5">Customer Service</p grey-text lighten-5>
+  </div>
+  <div class="col s12 m2">
+    <h4 class="center white-text">  <i class="material-icons">add</i>24/7</h4>
+    <p class="center grey-text lighten-5">Customer Support</p>
+   </div>
+
+</div>
+    </div>  
+</section>   <!--End Of Store Section-->
+
+<!---Floating Menu-->
+<div class="fixed-action-btn">
+  <a class="btn-floating btn-large z-depth-3 pulse light-blue tooltipped" data-position="top" data-tooltip="It's Under development">
+    <i class="large material-icons">live_help</i>
+  </a>
+  <ul>
+    <li><a class="btn-floating  btn-large green accent-3 tooltipped" data-position="left" data-tooltip="Having A problem? Call Us Now!"><i class="material-icons">phone_forwarded</i></a></li>
+    <li><a class="btn-floating btn-large teal lighten-2 tooltipped" data-position="top" data-tooltip="Your Account"><i class="material-icons">person</i></a></li>
+    <li><a class="btn-floating btn-large cyan accent-4 tooltipped" data-position="top" data-tooltip="Your Orders"><i class="material-icons">local_shipping</i></a></li>
+    <li><a class="btn-floating btn-large  light-green accent-4 tooltipped" data-position="top" data-tooltip="Offline Stores"><i class="material-icons">business</i></a></li>
+  </ul>
+</div>
+<!---End Of Floating Menu-->
+
+<!--Account Section-->
+<section class=" cyan darken-4 Con-SEC" >
+  <div class="container-fluid" id="account">
+   
+      <h4 class="header white-text headings center">Sign Up & Log In</h4>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="Images/bg3.jpg" class="responsive-img hide-on-med-and-down" >
+          <span class="card-title white-text">Create An Account Now For Free!  <i class="material-icons H-font  cyan-text accent-3 hide-on-med-and-down">group_add</i></span>
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <ul id="tabs-swipe-demo " class="tabs">
+              <li class="tab col s3"><a class="active teal white-text tab1" href="#test-swipe-1">SIGN UP</a></li>
+              <li class="tab col s3"><a class="deep-purple darken-3 white-text tab2" href="#test-swipe-2">LOG IN</a></li>
+             
+            </ul>
+            <div id="test-swipe-1" class="col s12 ">
+              <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s12 m6">
+                      <i class="material-icons prefix">account_circle</i>
+                      <input id="icon_prefix" type="text" class="validate">
+                      <label for="icon_prefix">First Name</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                      <i class="material-icons prefix">account_circle</i>
+                      <input id="icon_prefix" type="text" class="validate">
+                      <label for="icon_prefix">Last Name</label>
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    <div class="input-field col s12 m6">
+                      <i class="material-icons prefix">email</i>
+                      <input id="icon_prefix" type="text" class="validate">
+                      <label for="icon_prefix">Email</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                      <i class="material-icons prefix">phone</i>
+                      <input id="icon_prefix " type="text" class="validate phone_no" data-length="10">
+                      <label for="icon_prefix">Phone No.</label>
+                    </div>
+                  </div>
+                
+                  
+                  <div class="row">
+                    <div class="input-field col s12 m6">
+                      <i class="material-icons prefix">security</i>
+                      <input id="icon_prefix" type="password" class="validate">
+                      <label for="icon_prefix">Password</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                      <i class="material-icons prefix">security</i>
+                      <input id="icon_prefix" type="password" class="validate">
+                      <label for="icon_prefix"> Confirm Password</label>
+                    </div>
+                  </div>
+                
+                  <div class="row ">
+                    <div class="col s12 m12 sub-row">
+                    <a class="waves-effect waves-light btn-small" onclick="M.toast({html: 'Please Wait, While Your Account Is being Created!'})"><i class="material-icons right">add_box</i>SUBMIT</a>
+                  </div>
+                  </div>
+                </form>
+               
+              </div>
+                    
+            </div>
+            <div id="test-swipe-2" class="col s12 ">
+              
+              <form class="col s12 m12 ">
+              <div class="row">
+                <div class="input-field col s12 m12">
+                  <i class="material-icons prefix">email</i>
+                  <input id="icon_prefix" type="text" class="validate">
+                  <label for="icon_prefix">Email</label>
+                </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12 m12">
+                <i class="material-icons prefix">security</i>
+                <input id="icon_prefix" type="password" class="validate">
+                <label for="icon_prefix">Password</label>
+              </div>
+              </div>
+              <div class="row">
+                <div class="col s12 m12">
+                <a class="waves-effect waves-light btn-small orange" onclick="M.toast({html: 'Redirecting To Login Page!'})"><i class="material-icons right">person</i>LOG IN</a>
+              </div>
+              </div>
+            </form>
+          </div>
+         
+        </div>
+    
+    </div>
+    
+  </div>
+</section>
+
+<!--Footer Section-->
+<footer class="teal">
+  <div class="container-fluid">
+    <div class="row">
+      
+<div class="col s12 m3">
+  <h4 class="white-text headings">ECSTORE</h4>
+  <ul>
+    <li><a href="#!" class="white-text">ABOUT US</a></li>
+    <li><a href="#!" class="white-text">Partners</a></li>
+    <li><a href="#!" class="white-text">Our Presence</a></li>
+    <li><a href="#!" class="white-text">Tech News</a></li>
+  </ul>
+</div>
+<div class="col s12 m3">
+  <h6 class="white-text headings">Services</h6>
+  <ul>
+    <li><a href="#!" class="white-text">Technical Support</a></li>
+    <li><a href="#!" class="white-text">Electronic Components</a></li>
+    <li><a href="#!" class="white-text">Feedback</a></li>
+    <li><a href="#!" class="white-text">Stores</a></li>
+  </ul>
+</div>
+
+
+<div class="col s12 m3 contact">
+  <h5 class="white-text headings">Contact Us</h5>
+  <ul>
+    <li><a href="#!" class="white-text"><i class="fa fa-facebook-official " aria-hidden="true"></i>  Facebook</a></li>
+    <li><a href="#!" class="white-text"><i class="fa fa-twitter-square" aria-hidden="true"></i>  Twitter</a></li>
+    <li><a href="#!" class="white-text"><i class="fa fa-google-plus-square" aria-hidden="true"></i>  Google+</a></li>
+    <li><a href="#!" class="white-text"><i class="fa fa-youtube-play " aria-hidden="true"></i>  Youtube</i></a></li>
+  </ul>
+</div>
+
+<div class=" col s12 m3">
+  <h5 class="white-text headings">EMAIL US</h5>
+  <div class="row">
+    <form class="f-email">
+    <div class="input-field white col s10 email-fl">
+      <input id="Email" type="text" class="validate">
+      <label for="Email" >Enter Email</label>
+    </div>
+    <div  class="col s12">
+      <a class="waves-effect waves-light btn-small orange hoverable" onclick="M.toast({html: 'Redirecting to Your Email Soon!'})"><i class="material-icons right">email</i>SUBMIT</a>
+    </div >
+
+</form>
+</div>
+</div>
+
+
+
+    </div>
+  </div>
+  <div class="center">
+    <h6 class="white-text">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> ParthaDas-Dev (Partha Das)</h6>
+    <small class="headings white-text">Designed & Developed by Partha Das</small><br>
+    <small class="white-text">Images - Unsplash & Pexels & Pixabay </small>
+  </div>
+</footer>
+    <body>
+
+
+
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <!--Custom JS-->
+      <script src="Script.js"></script>
+    </body>
+  </html>
